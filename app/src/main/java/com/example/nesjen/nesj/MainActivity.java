@@ -16,10 +16,13 @@ public class MainActivity extends AppCompatActivity {
         ImageButton actionButton = (ImageButton) findViewById(R.id.imageButton);
         actionButton.setOnClickListener(new View.OnClickListener()
         {
-            //Test
+
+
+            //Test 2
             @Override
             public void onClick(View v)
             {
+                Toast.makeText(MainActivity.this, "hello world!", Toast.LENGTH_LONG).show();
                 Toast.makeText(MainActivity.this, "hello world!", Toast.LENGTH_LONG).show();
 
 
